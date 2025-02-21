@@ -1,0 +1,16 @@
+@import "./Blocks/nav";
+@import "./Blocks/header";
+@import "./Blocks/delivery";
+@import "./Blocks/details";
+@import "./Blocks/products-section";
+@import "./Blocks/download-menu";
+@import "./Blocks/questions-section";
+@import "./Blocks/footer";
+
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;  
+}

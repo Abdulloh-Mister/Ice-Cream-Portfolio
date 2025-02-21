@@ -1,0 +1,77 @@
+.download-menu {
+    width: 100%;
+    height: 680px;
+    background-color: #F8EDF0;
+    .container1 {
+        max-width: 1079px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .photo-of-phone {
+            .image1 {
+                border-radius: 27px;
+                box-shadow: 0 0 20px black;
+                margin-top: 80px;
+                width: 310px;
+                height: 630px;
+                margin-left: 100px;
+            }
+        }
+        .describing {
+            font-family: 'Roboto', sans-serif;
+            width: 50%;
+            height: 100%;
+            margin-top: 100px;
+            margin-left: 140px;
+            .all-images {
+                background-color: white;
+                width: 40px;
+                height: 40px;
+                border-radius: 5px;
+                margin-top: 15px;
+                margin-right: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: #D64374 solid 1.5px;
+                .all-img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+            .title {
+                font-size: 44px;
+                width: 630px;
+                height: 51px;
+            }
+            .defining {
+                font-weight: 400;
+                color: #0F010170;
+                font-size: 18px;
+                width: 570px;
+                height: 60px;
+            }
+            .all-step {
+                display: flex;
+                font-weight: 400;
+                font-size: 22px;
+            }
+        }
+        .download-links {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 450px;
+            .apple-store {
+                width: 200px;
+                height: 88px;
+                cursor: pointer;
+            }
+            .play-market {
+                width: 200px;
+                height: 88px;
+                cursor: pointer;
+            }
+        }
+    }
+}

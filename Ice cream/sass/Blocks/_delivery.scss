@@ -1,0 +1,52 @@
+.delivery {
+    max-width: 1079px;
+    margin: 70px auto;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .all {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 30px;
+        transition: 0.2s ease all;
+        cursor: pointer;
+        border-radius: 10px;
+        .title1 {
+            font-family: 'Roboto', sans-serif;
+            width: 100%;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .definition1 {
+            font-family: 'Roboto', sans-serif;
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .car {
+            width: 60px;
+            height: 60px;
+        }
+        .chinese-food {
+            width: 50px;
+            height: 50px;
+        }
+        .cash-back {
+            width: 50px;
+            height: 50px;
+        }
+        .fast-food {
+            width: 70px;
+            height: 70px;
+        }
+    }
+    .all:hover {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+}

@@ -1,0 +1,648 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap");
+.box-shadow {
+  margin: 0 auto;
+  max-width: 1479px;
+}
+.box-shadow .mini-box {
+  background-color: white;
+  width: 100%;
+  height: 110px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 300;
+}
+.box-shadow .mini-box .nav {
+  width: 100%;
+  height: 110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 1479px;
+  margin: 0 auto;
+}
+.box-shadow .mini-box .nav .media__menu {
+  display: none;
+}
+.box-shadow .mini-box .nav .logo__image {
+  width: 100px;
+  height: 100px;
+  margin-right: 266px;
+  margin-left: 70px;
+}
+.box-shadow .mini-box .nav .nav__menu {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+.box-shadow .mini-box .nav .nav__menu .menu__link {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: rgba(21, 1, 1, 0.3960784314);
+  font-size: 16px;
+  transition: 0.2s ease all;
+}
+.box-shadow .mini-box .nav .nav__menu .menu__link--active {
+  color: #D23166;
+  font-size: 18px;
+  font-weight: 600;
+}
+.box-shadow .mini-box .nav .nav__menu .menu__link:hover {
+  color: #D23166;
+  font-weight: 600;
+  font-size: 20px;
+}
+.box-shadow .mini-box .nav .menu__button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #D23166;
+  color: white;
+  text-align: center;
+  width: 175px;
+  height: 55px;
+  font-family: "Roboto", sans-serif;
+  color: #fafafa;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease all;
+  margin-left: 172px;
+  margin-right: 70px;
+}
+.box-shadow .mini-box .nav .menu__button:hover {
+  border: solid 1.5px #D23166;
+  color: #D23166;
+  background-color: transparent;
+}
+
+.header {
+  background-color: rgba(242, 206, 218, 0.1882352941);
+  height: 925px;
+  width: 100%;
+}
+.header .container {
+  max-width: 1079px;
+  margin: 0 auto;
+}
+.header .container .reception {
+  padding: 126px;
+  margin-left: -150px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 925px;
+  width: 1425px;
+}
+.header .container .reception .text-side {
+  width: 50%;
+  padding-top: 245px;
+  padding-right: 100px;
+}
+.header .container .reception .text-side .small-title {
+  font-family: "Roboto", sans-serif;
+  color: #0f0101;
+  font-size: 14px;
+  margin-bottom: -34px;
+}
+.header .container .reception .text-side .name1 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 57px;
+  width: 650px;
+  color: #0F0101;
+  font-weight: 400;
+}
+.header .container .reception .text-side .red-title {
+  color: #d23166;
+  font-weight: 500;
+}
+.header .container .reception .text-side .definition {
+  color: rgba(15, 1, 1, 0.3764705882);
+  font-weight: 400;
+  width: 530px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: -10px;
+  text-align: left;
+}
+.header .container .reception .text-side .reception__button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #D23166;
+  color: white;
+  text-align: center;
+  width: 175px;
+  height: 55px;
+  font-family: "Roboto", sans-serif;
+  color: #fafafa;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease all;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.header .container .reception .text-side .reception__button:hover {
+  border: solid 1.5px #D23166;
+  background-color: transparent;
+  color: #D23166;
+}
+.header .container .reception .ice-cream1 {
+  width: 40%;
+  position: relative;
+  height: 100%;
+}
+.header .container .reception .ice-cream1 .fisrt-ice-cream {
+  position: absolute;
+  top: 0;
+}
+.header .container .reception .ice-cream1 .drops-of-milk {
+  position: absolute;
+  top: 125px;
+  left: -149px;
+  transform: rotate(-4.79deg);
+  z-index: 200;
+}
+.header .container .reception .ice-cream1 .round {
+  width: 365px;
+  height: 353px;
+  border-radius: 50%;
+  background-color: rgba(210, 49, 102, 0.062745098);
+  position: absolute;
+  top: 285px;
+  left: 116px;
+}
+.header .container .reception .ice-cream1 .shadow {
+  width: 173px;
+  height: 15px;
+  background-color: rgba(237, 181, 199, 0.3411764706);
+  border-radius: 50%;
+  box-shadow: 0 0 15px 15px rgba(237, 181, 199, 0.3411764706);
+  position: absolute;
+  top: 710px;
+  left: 210px;
+}
+
+.delivery {
+  max-width: 1079px;
+  margin: 70px auto;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delivery .all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 30px;
+  transition: 0.2s ease all;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.delivery .all .title1 {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.delivery .all .definition1 {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+}
+.delivery .all .car {
+  width: 60px;
+  height: 60px;
+}
+.delivery .all .chinese-food {
+  width: 50px;
+  height: 50px;
+}
+.delivery .all .cash-back {
+  width: 50px;
+  height: 50px;
+}
+.delivery .all .fast-food {
+  width: 70px;
+  height: 70px;
+}
+.delivery .all:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.details {
+  background-color: #F8EDF0;
+  width: 100%;
+  height: 585px;
+  overflow: hidden;
+  display: flex;
+}
+.details .container {
+  max-width: 1079px;
+  margin: 0 auto;
+  display: flex;
+}
+.details .container .part1 {
+  margin: 200px 253px 0 0;
+}
+.details .container .part1 .name2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  width: 349px;
+  height: 98px;
+  margin-bottom: 16px;
+}
+.details .container .part1 .description {
+  font-family: "Roboto", sans-serif;
+  width: 442px;
+  height: 58px;
+  color: rgba(21, 1, 1, 0.3764705882);
+  margin-bottom: 35px;
+}
+.details .container .part1 .details__button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #D23166;
+  color: white;
+  text-align: center;
+  width: 175px;
+  height: 55px;
+  font-family: "Roboto", sans-serif;
+  color: #fafafa;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease all;
+}
+.details .container .part1 .details__button:hover {
+  border: #D23166 solid 1px;
+  color: #D23166;
+  background-color: transparent;
+}
+.details .container .part2 {
+  margin-left: -177px;
+  margin-top: -72.2px;
+}
+.details .container .part2 .second-ice-cream {
+  width: 655px;
+  height: 656.8px;
+  margin-top: 30px;
+}
+.details .container .part2 .shadow2 {
+  width: 283px;
+  height: 27px;
+  background-color: rgba(237, 181, 199, 0.5294117647);
+  margin-top: -125px;
+  margin-left: 188px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 15px rgba(237, 181, 199, 0.5294117647);
+}
+
+.feedback {
+  background-color: white;
+  width: 100%;
+  height: 2050px;
+  font-family: "Roboto", sans-serif;
+}
+.feedback .container1 {
+  max-width: 1079px;
+  margin: 0 auto;
+}
+.feedback .container1 .our-products .big-title {
+  font-weight: 600;
+  font-size: 44px;
+  color: #150101;
+  margin-top: 137px;
+  text-align: center;
+}
+.feedback .container1 .our-products .little-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 64px;
+}
+.feedback .container1 .our-products .little-navbar .little__menu {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 50px;
+}
+.feedback .container1 .our-products .little-navbar .little__menu .little__menu__item .little__menu__link {
+  text-decoration: none;
+  display: block;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-weight: 500;
+}
+.feedback .container1 .our-products .little-navbar .little__menu .little__menu__item .little__menu__link--active {
+  margin-right: -45px;
+  color: black;
+}
+.feedback .container1 .our-products .little-navbar .little__menu .little__menu__item .alldiv1 {
+  width: fit-content;
+  position: relative;
+}
+.feedback .container1 .our-products .little-navbar .little__menu .little__menu__item .alldiv1 .text1 {
+  transition: 0.2s ease all;
+}
+.feedback .container1 .our-products .little-navbar .little__menu .little__menu__item .alldiv1 .line1 {
+  background-color: #D64374;
+  width: 0;
+  height: 3px;
+  margin-top: -17px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transition: 0.2s ease all;
+}
+.feedback .container1 .our-products .little-navbar .little__menu .little__menu__item .alldiv1 .line1--active {
+  width: 100%;
+}
+.feedback .container1 .our-products .little-navbar .little__menu .little__menu__item .alldiv1:hover .line1 {
+  width: 100%;
+  margin-top: -12px;
+}
+.feedback .container1 .our-products .little-navbar .little__menu .little__menu__item .alldiv1:hover .text1 {
+  color: black;
+  transform: scale(1.2);
+  font-weight: 700;
+}
+.feedback .container1 .our-products .assortment {
+  gap: 40px;
+}
+.feedback .container1 .our-products .assortment .all2 {
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+}
+.feedback .container1 .our-products .assortment .all2 .ice-cream {
+  width: 580px;
+  height: 415px;
+}
+.feedback .container1 .our-products .assortment .all2 .text-side1 {
+  text-align: right;
+}
+.feedback .container1 .our-products .assortment .all2 .text-side1 .cost1 {
+  display: flex;
+  gap: 5px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: fit-content;
+  text-align: right;
+}
+.feedback .container1 .our-products .assortment .all2 .text-side {
+  padding-top: 110px;
+}
+.feedback .container1 .our-products .assortment .all2 .text-side .name3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.feedback .container1 .our-products .assortment .all2 .text-side .specification {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  font-size: 16px;
+  width: 444px;
+  height: 67px;
+}
+.feedback .container1 .our-products .assortment .all2 .text-side .cost {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+  align-items: flex-end;
+  width: fit-content;
+}
+.feedback .container1 .our-products .assortment .all2 .text-side .cost .first-cost {
+  font-size: 23px;
+}
+.feedback .container1 .our-products .assortment .all2 .text-side .cost .second-cost {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 17px;
+  margin-bottom: 25px;
+  text-decoration: line-through;
+}
+.feedback .container1 .our-products .assortment .all2 .text-side #products__button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #D23166;
+  color: white;
+  text-align: center;
+  width: 175px;
+  height: 55px;
+  font-family: "Roboto", sans-serif;
+  color: #fafafa;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease all;
+}
+.feedback .container1 .our-products .assortment .all2 .text-side #products__button:hover {
+  border: solid #D23166 1.5px;
+  background-color: transparent;
+  color: #D23166;
+}
+.feedback .container1 .our-products .our-clients {
+  margin-top: 115px;
+  display: flex;
+}
+.feedback .container1 .our-products .our-clients .clients {
+  width: 40%;
+}
+.feedback .container1 .our-products .our-clients .clients .primary {
+  display: flex;
+  flex-wrap: wrap;
+}
+.feedback .container1 .our-products .our-clients .clients .primary .woman {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 21px;
+  border: #D23166 solid 2px;
+}
+.feedback .container1 .our-products .our-clients .clients .primary .names {
+  width: 189px;
+  height: 48px;
+}
+.feedback .container1 .our-products .our-clients .clients .primary .names .name-of-client {
+  width: 179px;
+  height: 28px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.feedback .container1 .our-products .our-clients .clients .primary .names .country {
+  margin-top: -10px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+  font-size: 12px;
+}
+.feedback .container1 .our-products .our-clients .clients .rate {
+  width: 330px;
+  height: 53px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 46px;
+  margin-left: 15px;
+}
+.feedback .container1 .our-products .our-clients .clients .rate .left {
+  color: #F6762C;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.feedback .container1 .our-products .our-clients .clients .rate .left1 {
+  color: #F6762C;
+  transform: rotate(180deg);
+  margin-left: 12px;
+  margin-top: 7px;
+}
+.feedback .container1 .our-products .our-clients .clients .choice {
+  display: flex;
+  align-items: center;
+  margin-top: 75px;
+}
+.feedback .container1 .our-products .our-clients .clients .choice .fa-chevron-left {
+  color: rgba(210, 49, 102, 0.3764705882);
+  font-size: 30px;
+  transition: 0.2s ease all;
+  cursor: pointer;
+}
+.feedback .container1 .our-products .our-clients .clients .choice .fa-chevron-right {
+  color: rgba(210, 49, 102, 0.3764705882);
+  font-size: 30px;
+  transition: 0.2s ease all;
+  cursor: pointer;
+}
+.feedback .container1 .our-products .our-clients .clients .choice .lr:hover {
+  color: #D23166;
+}
+.feedback .container1 .our-products .our-clients .clients .choice .man {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.feedback .container1 .our-products .our-clients .clients .choice .woman1 {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: solid 2px #D23166;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.feedback .container1 .our-products .our-clients .clients .choice .woman2 {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.feedback .container1 .our-products .our-clients .third-ice-cream {
+  width: 564px;
+  height: 442px;
+  margin-left: 150px;
+}
+
+.download-menu {
+  width: 100%;
+  height: 680px;
+  background-color: #F8EDF0;
+}
+.download-menu .container1 {
+  max-width: 1079px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.download-menu .container1 .photo-of-phone .image1 {
+  border-radius: 27px;
+  box-shadow: 0 0 20px black;
+  margin-top: 80px;
+  width: 310px;
+  height: 630px;
+  margin-left: 100px;
+}
+.download-menu .container1 .describing {
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+  height: 100%;
+  margin-top: 100px;
+  margin-left: 140px;
+}
+.download-menu .container1 .describing .all-images {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #D64374 solid 1.5px;
+}
+.download-menu .container1 .describing .all-images .all-img {
+  width: 25px;
+  height: 25px;
+}
+.download-menu .container1 .describing .title {
+  font-size: 44px;
+  width: 630px;
+  height: 51px;
+}
+.download-menu .container1 .describing .defining {
+  font-weight: 400;
+  color: rgba(15, 1, 1, 0.4392156863);
+  font-size: 18px;
+  width: 570px;
+  height: 60px;
+}
+.download-menu .container1 .describing .all-step {
+  display: flex;
+  font-weight: 400;
+  font-size: 22px;
+}
+.download-menu .container1 .download-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 450px;
+}
+.download-menu .container1 .download-links .apple-store {
+  width: 200px;
+  height: 88px;
+  cursor: pointer;
+}
+.download-menu .container1 .download-links .play-market {
+  width: 200px;
+  height: 88px;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */

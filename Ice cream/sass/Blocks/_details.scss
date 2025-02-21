@@ -1,0 +1,69 @@
+.details {
+    background-color: #F8EDF0;
+    width: 100%;
+    height: 585px;
+    overflow: hidden;
+    display: flex;
+    .container {
+        max-width: 1079px;
+        margin: 0 auto;
+        display: flex;
+        .part1 {
+            margin: 200px 253px 0 0;
+            .name2 {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 600;
+                font-size: 44px;
+                width: 349px;
+                height: 98px;
+                margin-bottom: 16px;
+            }
+            .description {
+                font-family: 'Roboto', sans-serif;
+                width: 442px;
+                height: 58px;
+                color: #15010160;
+                margin-bottom: 35px;
+            }
+            .details__button {
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                background-color: #D23166;
+                color: white;
+                text-align: center;
+                width: 175px;
+                height: 55px;
+                font-family: 'Roboto', sans-serif;
+                color: #fafafa;
+                font-size: 17px;
+                font-weight: 700;
+                cursor: pointer;
+                transition: 0.2s ease all;
+            }
+            .details__button:hover {
+                border: #D23166 solid 1px;
+                color: #D23166;
+                background-color: transparent;
+            }
+        }
+        .part2 {
+            margin-left: -177px;
+            margin-top: -72.2px;
+            .second-ice-cream {
+                width: 655px;
+                height: 656.8px;
+                margin-top: 30px;
+            }
+            .shadow2 {
+                width: 283px;
+                height: 27px;
+                background-color: #EDB5C787;
+                margin-top: -125px;
+                margin-left: 188px;
+                border-radius: 50%;
+                box-shadow: 0 0 20px 15px #EDB5C787;
+            } 
+        }
+    }
+}

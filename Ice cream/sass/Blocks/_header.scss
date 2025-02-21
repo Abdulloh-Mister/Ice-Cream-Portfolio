@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+
+.header {
+    background-color: #F2CEDA30;
+    height: 925px;
+    width: 100%;
+    .container {
+        max-width: 1079px;
+        margin: 0 auto;
+        .reception {
+            padding: 126px;
+            margin-left: -150px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            overflow: hidden;
+            height: 925px;
+            width: 1425px;
+            .text-side {
+                width: 50%;
+                padding-top: 245px;
+                padding-right: 100px;
+                .small-title {
+                    font-family: 'Roboto', sans-serif;
+                    color: #0f0101;
+                    font-size: 14px;
+                    margin-bottom: -34px;
+                }
+                .name1 {
+                    font-family: 'Fredoka', sans-serif;
+                    font-size: 57px;
+                    width: 650px;
+                    color: #0F0101;
+                    font-weight: 400;
+                }
+                .red-title {
+                    color: #d23166;
+                    font-weight: 500;
+                }
+                .definition {
+                    color: #0F010160;
+                    font-weight: 400;
+                    width: 530px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    margin-top: -10px;
+                    text-align: left;
+                }
+                .reception__button  {
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                background-color: #D23166;
+                color: white;
+                text-align: center;
+                width: 175px;
+                height: 55px;
+                font-family: 'Roboto', sans-serif;
+                color: #fafafa;
+                font-size: 17px;
+                font-weight: 700;
+                cursor: pointer;
+                transition: 0.2s ease all;
+                margin-top: 40px;
+                margin-left: 10px;
+                }
+                .reception__button:hover {
+                    border: solid 1.5px #D23166;
+                    background-color: transparent;
+                    color: #D23166;
+                }
+            }
+            .ice-cream1 {
+                width: 40%;
+                position: relative;
+                height: 100%;
+                .fisrt-ice-cream {
+                    position: absolute;
+                    top: 0;
+                
+                }
+                .drops-of-milk {
+                    position: absolute;
+                    top: 125px;
+                    left: -149px;
+                    transform: rotate(-4.79deg);
+                    z-index: 200;
+                }
+                .round {
+                    width: 365px;
+                    height: 353px;
+                    border-radius: 50%;
+                    background-color: #d2316610;
+                    position: absolute;
+                    top: 285px;
+                    left: 116px;
+                }
+                .shadow {
+                    width: 173px;
+                    height: 15px;
+                    background-color: #edb5c757;
+                    border-radius: 50%;
+                    box-shadow: 0 0 15px 15px #edb5c757;
+                    position: absolute;
+                    top: 710px;
+                    left: 210px;
+                }
+            }
+        }
+    }
+}
